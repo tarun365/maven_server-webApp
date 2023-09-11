@@ -16,8 +16,56 @@
   <description>Logic.</description>
 
   <build>
-    <finalName>${project.artifactId}</finalName>
-  </build>
+
+<finalName>${project.artifactId}</finalName>
+
+<plugins>
+
+<!--  Add the JaCoCo Maven Plugin  -->
+
+<plugin>
+
+<groupId>org.jacoco</groupId>
+
+<artifactId>jacoco-maven-plugin</artifactId>
+
+<version>0.8.7</version>
+
+<executions>
+
+<execution>
+
+<goals>
+
+<goal>prepare-agent</goal>
+
+</goals>
+
+</execution>
+
+<execution>
+
+<id>report</id>
+
+<phase>prepare-package</phase>
+
+<goals>
+
+<goal>report</goal>
+
+</goals>
+
+</execution>
+
+</executions>
+
+</plugin>
+
+<!--  ... Other plugins ...  -->
+
+</plugins>
+
+</build>
 
   <dependencies>
     <dependency>
