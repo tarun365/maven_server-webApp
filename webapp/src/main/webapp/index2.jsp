@@ -62,8 +62,8 @@
         }
 
         button[type="submit"] {
-            background-color: #007BFF;
-            color: #fff;
+            background-color: #b38900;
+            color: #b38900;
             padding: 10px 20px;
             border: none;
             border-radius: 3px;
@@ -105,9 +105,9 @@
             <!-- Critical Functionality: User Registration -->
             <form action="#" method="post" onsubmit="return false;">
                 <label for="reg-username">First Name:</label>
-                <input type="text" placeholder="Enter Username" name="reg-username" required>
+                <input type="text" placeholder="Enter firstname" name="reg-username" required>
                 <label for="reg-password">last name:</label>
-                <input type="password" placeholder="Enter Password" name="reg-password" required>
+                <input type="password" placeholder="Enter lastname" name="reg-password" required>
                 <label for="reg-email">Email:</label>
                 <input type="email" placeholder="Enter Email" name="reg-email" required>
                 <button type="submit">Register</button>
