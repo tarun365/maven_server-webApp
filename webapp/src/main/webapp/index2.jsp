@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome To Bamboo</title>
+    <title>Welcome To Teamcity</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,7 +36,7 @@
         }
 
         h1 {
-            color: #007BFF;
+            color: #ff8400;
             margin-bottom: 20px;
         }
 
@@ -72,7 +72,7 @@
         }
 
         button[type="submit"]:hover {
-            background-color: #0056b3;
+            background-color: #b38900;
         }
 
         /* Responsive styles */
@@ -89,7 +89,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome To Bamboo</h1>
+    <h1>Welcome To Teamcity</h1>
     <div class="container">
         <div class="form-container">
             <!-- Critical Functionality: User Login -->
@@ -104,9 +104,9 @@
         <div class="form-container">
             <!-- Critical Functionality: User Registration -->
             <form action="#" method="post" onsubmit="return false;">
-                <label for="reg-username">Register Username:</label>
+                <label for="reg-username">First Name:</label>
                 <input type="text" placeholder="Enter Username" name="reg-username" required>
-                <label for="reg-password">Password:</label>
+                <label for="reg-password">last name:</label>
                 <input type="password" placeholder="Enter Password" name="reg-password" required>
                 <label for="reg-email">Email:</label>
                 <input type="email" placeholder="Enter Email" name="reg-email" required>
